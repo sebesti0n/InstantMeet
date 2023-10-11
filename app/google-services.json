@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "473555699454",
+    "project_id": "instantmeet-31dcd",
+    "storage_bucket": "instantmeet-31dcd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:473555699454:android:ad0c72617b45d5743347af",
+        "android_client_info": {
+          "package_name": "com.sebestion.instantmeet"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEwkg51Ihqny3elJMRHscbmNOMdeQLZj0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
