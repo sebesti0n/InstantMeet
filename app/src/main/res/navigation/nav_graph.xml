@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/home2"
-        android:name="com.sebestion.instantmeet.Fragments.Home"
+        android:name="com.sebestion.instantmeet.Fragments.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" >
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/meet"
-        android:name="com.sebestion.instantmeet.Fragments.Meet"
+        android:name="com.sebestion.instantmeet.Fragments.MeetFragment"
         android:label="fragment_meet"
         tools:layout="@layout/fragment_meet" >
         <action

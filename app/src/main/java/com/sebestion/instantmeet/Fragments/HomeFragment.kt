@@ -6,18 +6,12 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
-import com.sebestion.instantmeet.R
 import com.sebestion.instantmeet.databinding.FragmentHomeBinding
 
-class Home : Fragment() {
+class HomeFragment : Fragment() {
 
     private var _binding: FragmentHomeBinding? = null
     private val binding get() = _binding!!
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-
-    }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -33,8 +27,8 @@ class Home : Fragment() {
 
 
     }
-    fun shiftToMeetFragment(){
-//        val action =
+//    fun shiftToMeetFragment(){
+//        val action = HomeFragmentDirections
 //        findNavController().navigate(action)
-    }
+//    }/
 }
